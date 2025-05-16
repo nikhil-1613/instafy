@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 
-declare gloabal{
+declare global{
     var prisma: PrismaClient| undefined;
 
 }
